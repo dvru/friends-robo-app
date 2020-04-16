@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import CardList from '../Components/CardList';
 import SearchBar from '../Components/SearchBar';
 import Scroll from '../Components/Scroll';
 import ErrorBoundry from '../Components/ErrorBoundry';
-
 import './App.css';
 
+import { setSearchField } from '../action'
+s
 class App extends Component {
     constructor() {
         super()
@@ -52,6 +54,6 @@ class App extends Component {
     }
 }
 
-export default App;
+export default connect()(App);
 
 // STATE >> props
