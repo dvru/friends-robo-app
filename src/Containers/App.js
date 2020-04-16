@@ -19,15 +19,15 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-    onSearchChange: (event) => dispatch(setSearchField(event.target.value))
-    onRequestRobot: () => requestRobots(dispatch)
+    onSearchChange: (event) => dispatch(setSearchField(event.target.value)),
+    onRequestRobots: () => dispatch(requestRobots())
     }   
 }
 
 class App extends Component {
 
     componentDidMount(){
-        this.props.onRequestRobot();
+        this.props.onRequestRobots();
     }
 
     // onSearchChange = (e) => {
@@ -40,9 +40,8 @@ class App extends Component {
             return robot.name.toLowerCase().includes(searchField.toLowerCase());
         })
         // console.log('render')
-        return !isPending ?
-        <h1>Loading</h1> 
-        :
+        return isPending ?
+        <h1>Loading</h1> :
         (
             <div className='tc'>
                 <h1 className='f2'>RoboFriends</h1>
