@@ -2,3 +2,25 @@ Redux:
 - Good for Managing large state
 - Useful for sharing data between containers
 - Predictable state management using the 3 principles
+
+The 3 Principles:
+- Single sourse of truth
+- State is read only
+- Changes using pure functions
+
+Action:
+Something that the users does:
+ex: clicking a button, or drop down menu
+As soon as a User clicks on the button and creates an Action
+it goes through the Reducer.
+Reducer: 
+Is a pure function that receives an input which is the action, 
+and creates an output which is the state; store
+Store:
+Which is the entire state of the app.
+As it goes through the reducer(function), the store gets updated,
+and react notices a change and 
+Makes Changes: to the view 
+
+
+
