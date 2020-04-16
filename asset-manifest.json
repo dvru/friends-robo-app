@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/friends-robo-app/static/css/main.de9bb902.chunk.css",
-    "main.js": "/friends-robo-app/static/js/main.19ef0313.chunk.js",
-    "main.js.map": "/friends-robo-app/static/js/main.19ef0313.chunk.js.map",
-    "runtime-main.js": "/friends-robo-app/static/js/runtime-main.73ab88b9.js",
-    "runtime-main.js.map": "/friends-robo-app/static/js/runtime-main.73ab88b9.js.map",
+    "main.js": "/friends-robo-app/static/js/main.b16e954a.chunk.js",
+    "main.js.map": "/friends-robo-app/static/js/main.b16e954a.chunk.js.map",
+    "runtime-main.js": "/friends-robo-app/static/js/runtime-main.823015c1.js",
+    "runtime-main.js.map": "/friends-robo-app/static/js/runtime-main.823015c1.js.map",
     "static/css/2.66b7f74f.chunk.css": "/friends-robo-app/static/css/2.66b7f74f.chunk.css",
-    "static/js/2.9986c3ed.chunk.js": "/friends-robo-app/static/js/2.9986c3ed.chunk.js",
-    "static/js/2.9986c3ed.chunk.js.map": "/friends-robo-app/static/js/2.9986c3ed.chunk.js.map",
+    "static/js/2.b5e5b054.chunk.js": "/friends-robo-app/static/js/2.b5e5b054.chunk.js",
+    "static/js/2.b5e5b054.chunk.js.map": "/friends-robo-app/static/js/2.b5e5b054.chunk.js.map",
     "index.html": "/friends-robo-app/index.html",
-    "precache-manifest.b5ae02496a7e70d2003f661e558473cc.js": "/friends-robo-app/precache-manifest.b5ae02496a7e70d2003f661e558473cc.js",
+    "precache-manifest.feef5dcb286e4af76fb018fe66d5cd60.js": "/friends-robo-app/precache-manifest.feef5dcb286e4af76fb018fe66d5cd60.js",
     "service-worker.js": "/friends-robo-app/service-worker.js",
     "static/css/2.66b7f74f.chunk.css.map": "/friends-robo-app/static/css/2.66b7f74f.chunk.css.map",
     "static/css/main.de9bb902.chunk.css.map": "/friends-robo-app/static/css/main.de9bb902.chunk.css.map",
-    "static/js/2.9986c3ed.chunk.js.LICENSE.txt": "/friends-robo-app/static/js/2.9986c3ed.chunk.js.LICENSE.txt",
+    "static/js/2.b5e5b054.chunk.js.LICENSE.txt": "/friends-robo-app/static/js/2.b5e5b054.chunk.js.LICENSE.txt",
     "static/media/App.css": "/friends-robo-app/static/media/SEGA.12a3db8b.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.73ab88b9.js",
+    "static/js/runtime-main.823015c1.js",
     "static/css/2.66b7f74f.chunk.css",
-    "static/js/2.9986c3ed.chunk.js",
+    "static/js/2.b5e5b054.chunk.js",
     "static/css/main.de9bb902.chunk.css",
-    "static/js/main.19ef0313.chunk.js"
+    "static/js/main.b16e954a.chunk.js"
   ]
 }
