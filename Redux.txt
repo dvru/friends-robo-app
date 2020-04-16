@@ -27,3 +27,6 @@ Redux uses Flux Pattern:
     Dispatcher
     Store
     View
+
+Redux is the same at this.state and replace it from React
+and have it all done inside the Redux Library
