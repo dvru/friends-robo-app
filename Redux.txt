@@ -1,0 +1,4 @@
+Redux:
+- Good for Managing large state
+- Useful for sharing data between containers
+- Predictable state management using the 3 principles
